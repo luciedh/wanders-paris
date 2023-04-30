@@ -1,0 +1,15 @@
+.header {
+  justify-content: space-between;
+  background: none;
+  position: fixed;
+  top: 22px;
+  width: 94vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  z-index: 1;
+}
+
+.header .logo {
+  border-radius: 50%;
+  width: 60px;
+}

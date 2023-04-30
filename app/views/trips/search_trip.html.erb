@@ -1,0 +1,12 @@
+<div class="page-layout">
+  <div>
+    <h1 class="title">Créer ta balade</h1>
+    <p class="content">Dans quel quartier souhaites-tu te balader ?</p>
+    <p class="content">Quelles sont les thématiques qui t'intéressent?</p>
+    <% @categories.each do |category| %>
+      <button class="btn-white"><%= category.name %></button>
+    <% end %>
+    <p class="content">De combien de temps disposes-tu ?</p>
+    <%= link_to("En voiture Simone !", trips_path, class: "btn-tangerine") %>
+  </div>
+</div>

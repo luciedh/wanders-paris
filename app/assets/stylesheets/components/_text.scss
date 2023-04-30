@@ -1,0 +1,18 @@
+.title {
+  font: $headers-font;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 47px;
+  letter-spacing: 0.05em;
+  color: $white;
+}
+
+.content {
+  font: $body-font;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+  color: $white;
+}

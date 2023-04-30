@@ -1,0 +1,9 @@
+<div class="map"
+  data-controller="map"
+  data-map-markers-value="<%= @markers.to_json %>"
+  data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>"></div>
+
+<div class="btn-container">
+  <%= link_to("Me balader", search_trip_path, class: "btn btn-primary") %>
+  <%= link_to("Aller à cette adresse", places_path, class: "btn btn-primary") %>
+</div>

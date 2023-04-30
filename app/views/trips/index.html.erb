@@ -1,0 +1,15 @@
+<div class="trips-container">
+  <% @trips.each do |trip| %>
+    <div class="trip-container">
+      <h1 class="title"><%= trip.title %></h1>
+      <p class="content"><%= trip.places.count %> lieux à visiter</p>
+      <button class="btn-white"><%= trip.category.name %></button>
+      <div class="trip-places-container">
+        <% trip.places.each do |place| %>
+          <%= image_tag place.img_url, alt: "place's image" %>
+        <% end %>
+      </div>
+      <%= link_to("En voiture Simone !", trip_path(trip), class: "btn-tangerine") %>
+    </div>
+  <% end %>
+</div>

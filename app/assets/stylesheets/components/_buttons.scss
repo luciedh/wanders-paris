@@ -1,0 +1,35 @@
+.btn-tangerine {
+  border-radius: 16px;
+  text-decoration: none;
+  background-color: $tangerine;
+  text-align: center;
+  border: none;
+  color: $white;
+  font-weight: 500;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: fit-content;
+}
+
+.btn-white {
+  border-radius: 16px;
+  text-decoration: none;
+  background-color: $white;
+  text-align: center;
+  border: none;
+  color: $tangerine;
+  font-weight: 500;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: fit-content;
+}
+
+.btn-container {
+  position: fixed;
+  bottom: 0;
+  width: 95vw;
+  margin-bottom: 6rem;
+  margin-left: 9px;
+}
